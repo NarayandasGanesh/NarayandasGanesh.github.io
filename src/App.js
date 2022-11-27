@@ -1,12 +1,20 @@
-// import logo from './logo.svg';
+
 import './App.css';
-import Navbar from "./components/Navbar"
+import Home from "./components/Home";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Navbar from "./components/Navbar/Navbar";
+import Contact from "./components/Contact";
+import Project from "./components/Project";
 function App() {
   return (
-    <div className="App">
-      <h1>Hi Ganesh</h1>
+    <div>
       <Navbar />
-      {/* <h1>Hi Ganesh </h1> */}
+      <Home />
+      <About />
+      <Skills />
+      <Project />
+      <Contact />
     </div>
   );
 }
