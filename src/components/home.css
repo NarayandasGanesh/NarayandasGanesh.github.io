@@ -19,6 +19,7 @@
   font-size: 65px;
   font-weight: 600;
   margin-left: -3px;
+  color: rgb(84, 98, 128);
 }
 .home .home-content .text-3 {
   font-size: 40px;
@@ -29,19 +30,19 @@
   font-weight: 600;
 }
 .home .home-content > button {
-  background-color: rgb(25, 66, 153);
+  border: 2px solid rgb(25, 66, 153);
+  border-radius: 10px;
   padding: 10px 30px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  color: #fff;
-  border: none;
+  color: rgb(25, 66, 153);
   margin: 40px 0;
 }
 .home .home-content > button:hover {
   transition: 0.25s ease-in;
-  color: rgb(204, 227, 255);
-  
+  color: #ffffff;
+  background-color: rgb(25, 66, 153);
 }
 
 /* FOR SMALL SCREEN */
@@ -51,6 +52,7 @@
     padding: 100px 0 10px 10px;
   }
   .max-width img {
+    border: 1px solid red;
     width: 150px;
     border-radius: 50%;
   }

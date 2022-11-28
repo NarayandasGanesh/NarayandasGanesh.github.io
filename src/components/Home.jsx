@@ -14,7 +14,7 @@ const Home = () => {
           <button>Resume</button>
         </div>
         <img
-          src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+          src="https://avatars.githubusercontent.com/u/105913649?s=400&u=7a763372f41193230127cedf78f221f80b49083d&v=4"
           alt="user_avatar"
         />
       </div>
