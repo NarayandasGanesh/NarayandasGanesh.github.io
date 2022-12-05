@@ -1,0 +1,8 @@
+.middle{
+    margin: auto;
+    border: 1px solid red;
+    text-align: center;
+    height: 100px;
+    letter-spacing: 1px;
+    max-height: 100px;
+}
