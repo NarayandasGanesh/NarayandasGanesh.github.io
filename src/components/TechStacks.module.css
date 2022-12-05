@@ -62,13 +62,13 @@
 	font-family: 'Roboto Mono', monospace;
 	width: 15%;
 }
-.borderBottom {
+/* .borderBottom {
 	border-bottom: 3px solid #0282bd;
 	width: 100px;
 	margin: 5px auto;
 	margin-left: 550px;
 	border-radius: 10px;
-}
+} */
 .logoWrapper i {
 	margin-top: 10px;
 	margin-bottom: 5px;

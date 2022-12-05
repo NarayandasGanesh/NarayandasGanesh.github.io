@@ -132,7 +132,6 @@ body {
 		background-position-x: 50vw;
 		background-position-y: 15vh;
 		background-size: 50vw;
-		/* background-attachment: fixed; */
 	}
 	.intro {
 		max-width: 45%;
@@ -153,7 +152,6 @@ body {
 		min-height: 100vh;
 		background-size: 100vw;
 		background-position: center;
-		/* background-attachment: fixed; */
 		background-blend-mode: soft-light;
 		
 		padding: 0;
