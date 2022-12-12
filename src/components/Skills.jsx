@@ -17,12 +17,12 @@ const Skills = () => {
 		>
 			<div className={styles.borderBottom} />
 			<h1
-				style={{ color: `${newTheme.title}`  }}
+				// style={{ color: `${newTheme.title}`  }}
 				className={styles.heading}
 			>
-				Front End
+				FrontEnd
 			</h1>
-			<div className={styles.borderBottom} />
+			{/* <div className={styles.borderBottom} /> */}
 			<div className={styles.container}>
 				<div
 					style={{
@@ -101,13 +101,24 @@ const Skills = () => {
 					<i class="devicon-materialui-plain colored"></i>
 					<span>Material Ui</span>
 				</div>
+
+				<div
+					style={{
+						color: `${newTheme.buttonColor}`,
+						background: `${newTheme.linkHover}`,
+					}}
+					className={styles.logoWrapper}
+				>
+					<i class="devicon-nextjs-original-wordmark"></i>
+					<span>Next JS</span>
+				</div>
 				
 				</div>
 				<h1
-				style={{ color: `${newTheme.title}` }}
+				// style={{ color: `${newTheme.title}` }}
 				className={styles.heading}
 			    >
-				Back End
+				BackEnd
 			   </h1>
 			<div className={styles.borderBottom} />
 				<div className={styles.container}>

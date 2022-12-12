@@ -1,5 +1,4 @@
 import React from "react";
-import About from "./About";
 import "./home.css";
 const Home = () => {
   return (
@@ -11,7 +10,7 @@ const Home = () => {
           <div className="text-3">
             And I'm a <span>Full Stack Web Developer.</span>
           </div>
-          <button>Resume</button>
+          <a href="https://drive.google.com/file/d/1WTKF9d0eaB7FWzpEXbu8r5rL3h9tbwwT/view?usp=share_link" target="_blank">Resume</a>
         </div>
         <img
           src="https://avatars.githubusercontent.com/u/105913649?v=4"

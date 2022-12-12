@@ -34,7 +34,7 @@ const Card = (props) => {
 							: { background: 'none' }
 					}
 				>
-					<h2 style={{ color: `${newTheme.title}` }}>{title}</h2>
+					<h2 >{title}</h2>
 					<p style={{ color: `${newTheme.para}` }}>{des}</p>
 					<div>
 						{technologies.map((technology, index) => (
@@ -42,7 +42,8 @@ const Card = (props) => {
 								key={index}
 								style={{
 									marginLeft: '20px',
-									color: `${newTheme.title}`,
+									// color: `${newTheme.title}`,
+									color:"#8993b1"
 								}}
 							>
 								{technology}
@@ -76,3 +77,5 @@ const Card = (props) => {
 };
 
 export default Card;
+
+// style={{ color: `${newTheme.title}` }} --- title of project

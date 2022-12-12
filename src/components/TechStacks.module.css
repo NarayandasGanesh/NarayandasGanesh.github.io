@@ -60,7 +60,8 @@
 	/* border: 1px solid red; */
 	margin-top: 50px;
 	font-family: 'Roboto Mono', monospace;
-	width: 15%;
+	/* width: 10%; */
+	text-align: center;
 }
 /* .borderBottom {
 	border-bottom: 3px solid #0282bd;

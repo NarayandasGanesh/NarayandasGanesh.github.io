@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import About1 from './components/About1';
 // import { Project } from './components/Project/Project';
 import Project from './components/Projects/Project';
+import GitHubStats from './components/GitHubStats';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <About1 />
       <Skills />
       {/* <Project /> */}
-      {/* <Project /> */}
+      <Project />
+      <GitHubStats />
       <Contact />
     </div>
   );

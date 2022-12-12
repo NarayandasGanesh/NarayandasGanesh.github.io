@@ -44,7 +44,7 @@
 	opacity: 0.6;
 	border-radius: 20px 0 0 20px;
 	transition: 0.5s;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .image:hover .colorDiv {
 	opacity: 0;
@@ -67,7 +67,12 @@
 	/* margin-bottom: 20px; */
 }
 .titleContainer {
-	text-align: right;
+	text-align: center;
+    /* border: 1px solid red; */
+}
+h2{
+    /* border: 1px solid red; */
+    color: #8993b1;
 }
 .description i {
 	font-size: 30px;
@@ -139,6 +144,7 @@
 		opacity: 1;
 		padding: 10px 20px;
 		font-size: 25px;
+        border: 2px solid pink;
 	}
 	.description i {
 	font-size: 25px;

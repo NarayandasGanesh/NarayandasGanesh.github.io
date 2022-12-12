@@ -19,7 +19,7 @@ const menuItems = [
   },
   {
     id: 4,
-    title: "project",
+    title: "projects",
   },
   {
     id: 5,
