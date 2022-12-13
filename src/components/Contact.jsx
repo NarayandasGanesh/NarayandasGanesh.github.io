@@ -41,7 +41,7 @@ const Contact = () => {
             <i className="far fa-envelope"></i>
           </a>
           <a
-            href="https://twitter.com/Maheshg18146013"
+            href=""
             aria-label="Twitter"
             target="_blank"
             rel="noreferrer"
