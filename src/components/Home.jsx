@@ -10,7 +10,9 @@ const Home = () => {
           <div className="text-3">
             And I'm a <span>Full Stack Web Developer.</span>
           </div>
+          <div className="resume-button">
           <a href="https://drive.google.com/file/d/1WTKF9d0eaB7FWzpEXbu8r5rL3h9tbwwT/view?usp=share_link" target="_blank">Resume</a>
+          </div>        
         </div>
         <img
           src="https://avatars.githubusercontent.com/u/105913649?v=4"

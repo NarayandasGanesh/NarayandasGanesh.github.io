@@ -29,7 +29,10 @@
   color: rgb(25, 66, 153);
   font-weight: 600;
 }
-.home .home-content > a {
+.resume-button{
+  margin-top: 30px;
+}
+.resume-button > a {
   border: 2px solid rgb(25, 66, 153);
   border-radius: 10px;
   padding: 10px 30px;
@@ -40,7 +43,7 @@
   margin: 40px 0;
   text-decoration: none;
 }
-.home .home-content > a:hover {
+.resume-button > a:hover {
   transition: 0.25s ease-in;
   color: #ffffff;
   background-color: rgb(25, 66, 153);
